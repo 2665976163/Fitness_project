@@ -20,6 +20,8 @@ public class UserBean {
     private Integer u_Id;
     // 用户名称
     private String u_Name;
+    //用户密码
+    private String u_Password;
     // 用户性别
     private String u_Sex;
     // 用户邮箱

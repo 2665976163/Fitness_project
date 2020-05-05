@@ -21,25 +21,25 @@ public class LoginController {
 
     @GetMapping("/register/sendVerification")
     @ResponseBody
-    public void sendVerification(String qq){
+    public void sendVerification(String email){
         //验证码
         String verificationCode = String.valueOf((int)((Math.random()*9+1)*1000));
-        jedis.set(qq,verificationCode);
+        jedis.set(email,verificationCode);
         //60秒=1分钟
         //验证码在1分钟后清除
-        jedis.expire(qq,expire);
-        System.out.println(jedis.get(qq));
+        jedis.expire(email,expire);
+        System.out.println(jedis.get(email));
     }
 
     @GetMapping("/register")
     @ResponseBody
-    public void register(UserBean userBean,String qq, String verificationCode){
+    public void register(UserBean userBean,String email, String verificationCode){
         //获取redis中的验证码
-        String redisVer = jedis.get(qq);
+        String redisVer = jedis.get(email);
         //判断redis中的验证码是否与用户输入的验证码一样
         if(redisVer.equals(verificationCode)){
             userBean.setU_Name("deng");
-            userBean.setU_Email(qq);
+            userBean.setU_Email(email);
             boolean register = loginService.register(userBean);
             if(register){
                 System.out.println("注册成功");

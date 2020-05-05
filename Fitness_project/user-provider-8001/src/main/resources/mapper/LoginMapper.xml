@@ -3,23 +3,58 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.znsd.dao.LoginMapper">
+
+	<resultMap id="userMap" type="com.znsd.bean.RoleBean">
+		<id column="u_Id" property="u_Id" />
+		<result column="u_Name" property="u_Name" />
+		<result column="u_Password" property="u_Password" />
+		<result column="u_Sex" property="u_Sex" />
+		<result column="u_Email" property="u_Email" />
+		<result column="u_Phone" property="u_Phone" />
+		<result column="u_Img" property="u_Img" />
+		<result column="u_Balance" property="u_Balance" />
+		<result column="u_Integral" property="u_Integral" />
+		<result column="u_Region" property="u_Region"/>
+		<result column="u_Detali" property="u_Detali" />
+		<result column="u_CreateDate" property="u_CreateDate" />
+		<result column="u_LastLoginDate" property="u_LastLoginDate" />
+		<association property="roleBean" resultMap="roleMap" />
+	</resultMap>
+	<resultMap id="roleMap" type="com.znsd.bean.RoleBean">
+		<id column="r_Id" property="r_Id" />
+		<result column="r_Name" property="r_Name" />
+		<result column="r_CreateDate" property="r_CreateDate" />
+		<result column="r_lastUpDate" property="r_lastUpDate" />
+	</resultMap>
+
 	<!--查询所有-->
     <select id="findAll" resultType="com.znsd.bean.UserBean">
 		SELECT * FROM t_user
 		LEFT JOIN t_user_role ON t_user.`r_Id` = t_user_role.`r_Id`
 	</select>
+	<select id="findByName" resultType="com.znsd.bean.UserBean" parameterType="java.lang.String">
+		select * from t_user where u_name = #{name}
+	</select>
+	<!--管理员登录判断开始-->
 	<!--根据用户邮箱查询-->
 	<select id="findByEmail" resultType="com.znsd.bean.UserBean" parameterType="java.lang.String">
-		select * from t_user where u_email = #{u_Email}
+		select * from t_user where u_email = #{email} and u_password = #{password}
 	</select>
 	<!--根据用户手机号查询-->
 	<select id="findByPhone" resultType="com.znsd.bean.UserBean" parameterType="java.lang.String">
-		select * from t_user where u_phone = #{u_Phone}
+		select * from t_user where u_phone = #{phone} and u_password = #{password}
 	</select>
 	<!--根据用户名查询-->
-	<select id="findByName" resultType="com.znsd.bean.UserBean" parameterType="java.lang.String">
-		select * from t_user where u_name = #{u_Name}
+	<select id="findByNameAndPass" resultType="com.znsd.bean.UserBean" parameterType="java.lang.String">
+		select * from t_user where u_name = #{name} and u_password = #{password}
 	</select>
+	<!--根据用户名查询该用户的角色-->
+	<select id="findByRole" resultType="com.znsd.bean.UserBean" parameterType="java.lang.String">
+		SELECT * FROM t_user
+		LEFT JOIN t_user_role ON t_user.`r_Id` = t_user_role.`r_Id`
+		WHERE t_user_role.`r_name` = #{rName}  and t_user.u_Name=#{uName}
+	</select>
+	<!--管理员登录判断结束-->
 	<!--添加用户-->
 	<insert id="save" parameterType="com.znsd.bean.UserBean">
 		insert into t_user(u_Name,u_Password,u_Sex,u_email,u_phone,u_img,u_balance,u_integral,u_region,u_detali,u_createDate,u_lastLoginDate)

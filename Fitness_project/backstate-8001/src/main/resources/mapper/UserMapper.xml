@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- namespace：命名空间，用于隔离sql，还有一个很重要的作用，后面会讲 -->
+<mapper namespace="com.znsd.dao.user.UserMapper">
+    <!-- id:statement的id 或者叫做sql的id-->
+    <!-- parameterType:声明输入参数的类型 -->
+    <!-- resultType:声明输出结果的类型，应该填写pojo的全路径 -->
+    <!-- #{}：输入参数的占位符，相当于jdbc的？ -->
+
+    <!-- 通过id查询一个用户 -->
+    <select id="findUserById" parameterType="integer" resultType="com.znsd.bean.UserBean">
+		select * from t_user where id=#{id};
+	</select>
+    <select id="findAll" resultType="com.znsd.bean.UserBean">
+		select * from t_user;
+	</select>
+	<!--添加用户-->
+	<insert id="save" parameterType="com.znsd.bean.UserBean">
+		insert into t_user(u_Name,u_Password,u_Sex,u_email,u_phone,u_img,u_balance,u_integral,u_region,u_detali,u_createDate,u_lastLoginDate)
+		values(#{u_Name},#{u_Password},#{u_Sex},#{u_Email},#{u_Phone},#{u_Img},#{u_Balance},#{u_Integral},#{u_Region},#{u_Detali},#{u_CreateDate},#{u_LastLoginDate})
+	</insert>
+
+</mapper>

@@ -6,6 +6,7 @@
     <modules>
         <module>bean</module>
         <module>user-provider-8001</module>
+        <module>test-provider-80</module>
     </modules>
     <!-- Inherit defaults from Spring Boot -->
     <parent>

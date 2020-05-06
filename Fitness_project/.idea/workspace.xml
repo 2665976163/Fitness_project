@@ -2,16 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7af57e0e-b06a-4e5a-b04f-07e3ca329d8e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test-provider-80/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-provider-80/src/main/java/com/znsd/TestMain80.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-provider-80/src/main/java/com/znsd/user/controller/TestUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-provider-80/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-provider-80/test-provider-80.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bean/target/classes/META-INF/bean.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-provider-8001/src/main/java/com/znsd/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-provider-8001/src/main/java/com/znsd/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-provider-8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-provider-8001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bean/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bean/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bean/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/bean/target/" />
     <ignored path="$PROJECT_DIR$/user-provider-8001/target/" />
     <ignored path="$PROJECT_DIR$/backstage-page/target/" />
+    <ignored path="$PROJECT_DIR$/test-provider-80/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,14 +61,84 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user-provider-8001/src/main/java/com/znsd/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9">
-              <caret line="30" column="45" lean-forward="true" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+            <state relative-caret-position="-7">
+              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-provider-8001/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="35" column="21" selection-start-line="31" selection-start-column="8" selection-end-line="35" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-provider-80/src/main/java/com/znsd/TestMain80.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#232#233#0" expanded="true" />
+                <element signature="e#264#265#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bean/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-provider-80/src/main/java/com/znsd/user/controller/TestUserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/user-provider-8001/src/main/java/com/znsd/dao/LoginMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bean/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-provider-80/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -91,10 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bean/src/main/java/com/znsd/bean/AttentionBean.java" />
-        <option value="$PROJECT_DIR$/bean/src/main/java/com/znsd/bean/DiscussBean.java" />
-        <option value="$PROJECT_DIR$/bean/src/main/java/com/znsd/bean/ReplyBean.java" />
-        <option value="$PROJECT_DIR$/bean/src/main/java/com/znsd/bean/CommonTypeMiddle.java" />
         <option value="$PROJECT_DIR$/bean/src/main/java/com/znsd/bean/CommonType.java" />
         <option value="$PROJECT_DIR$/bean/src/main/java/com/znsd/bean/CommonTypeBean.java" />
         <option value="$PROJECT_DIR$/bean/src/main/java/com/znsd/bean/GoodsImgBean.java" />
@@ -123,7 +198,6 @@
         <option value="$PROJECT_DIR$/user-provider-8001/src/main/java/com/znsd/UserProvider8001Application.java" />
         <option value="$PROJECT_DIR$/user-provider-8001/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/user-provider-8001/src/main/java/com/znsd/controller/App.java" />
-        <option value="$PROJECT_DIR$/bean/pom.xml" />
         <option value="$PROJECT_DIR$/user-provider-8001/src/main/java/com/znsd/dao/LoginDao.java" />
         <option value="$PROJECT_DIR$/user-provider-8001/pom.xml" />
         <option value="$PROJECT_DIR$/user-provider-8001/src/main/java/com/znsd/config/RedisConfig.java" />
@@ -133,7 +207,6 @@
         <option value="$PROJECT_DIR$/backstage-page/src/main/resources/static/index.html" />
         <option value="$PROJECT_DIR$/backstage-page/src/main/resources/static/welcome.html" />
         <option value="$PROJECT_DIR$/backstage-page/pom.xml" />
-        <option value="$PROJECT_DIR$/bean/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/backstage-page/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/backstage-page/src/main/resources/static/login.html" />
         <option value="$PROJECT_DIR$/user-provider-8001/src/main/java/com/znsd/service/LoginService.java" />
@@ -142,6 +215,12 @@
         <option value="$PROJECT_DIR$/user-provider-8001/src/test/java/com/znsd/TestLogin.java" />
         <option value="$PROJECT_DIR$/user-provider-8001/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/user-provider-8001/src/main/java/com/znsd/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/test-provider-80/src/main/java/com/znsd/TestMain80.java" />
+        <option value="$PROJECT_DIR$/test-provider-80/pom.xml" />
+        <option value="$PROJECT_DIR$/test-provider-80/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/bean/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/bean/pom.xml" />
+        <option value="$PROJECT_DIR$/test-provider-80/src/main/java/com/znsd/user/controller/TestUserController.java" />
       </list>
     </option>
   </component>
@@ -188,7 +267,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-5" />
     <option name="y" value="-20" />
     <option name="width" value="1750" />
@@ -200,12 +279,84 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Fitness_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Fitness_project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fitness_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fitness_project" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fitness_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fitness_project" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fitness_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fitness_project" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fitness_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fitness_project" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fitness_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fitness_project" type="462c0819:PsiDirectoryNode" />
+              <item name="test-provider-80" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fitness_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fitness_project" type="462c0819:PsiDirectoryNode" />
+              <item name="test-provider-80" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fitness_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fitness_project" type="462c0819:PsiDirectoryNode" />
+              <item name="test-provider-80" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fitness_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fitness_project" type="462c0819:PsiDirectoryNode" />
+              <item name="test-provider-80" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fitness_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fitness_project" type="462c0819:PsiDirectoryNode" />
+              <item name="test-provider-80" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="znsd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fitness_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fitness_project" type="462c0819:PsiDirectoryNode" />
+              <item name="test-provider-80" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="znsd" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Fitness_project" type="b2602c69:ProjectViewProjectNode" />
@@ -258,28 +409,22 @@
               <item name="user-provider-8001" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fitness_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fitness_project" type="462c0819:PsiDirectoryNode" />
-              <item name="user-provider-8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fitness_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fitness_project" type="462c0819:PsiDirectoryNode" />
-              <item name="user-provider-8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="znsd" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fitness_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fitness_project" type="462c0819:PsiDirectoryNode" />
+              <item name="user-provider-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -292,7 +437,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/backstage-page/src/main/resources/static" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test-provider-80/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -305,6 +450,7 @@
       <recent name="com.znsd" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Git 本地仓库\Fitness_project\Fitness_project\test-provider-80\src\main\resources" />
       <recent name="D:\myself\study\项目\健身平台\Fitness_project\Fitness_project\backstage-page\src\main\resources\static" />
       <recent name="D:\myself\study\项目\健身平台\Fitness_project\Fitness_project\user-provider-8001\src\main\resources" />
       <recent name="D:\myself\study\项目\健身平台\Fitness_project\Fitness_project\user-provider-8001\src\main\java\com\znsd\dao" />
@@ -323,7 +469,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.UserProvider8001Application">
+  <component name="RunManager" selected="Spring Boot.TestMain80">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.znsd.test.Test" />
       <module name="bean" />
@@ -367,6 +513,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test-provider-80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.znsd.TestMain80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserProvider8001Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="user-provider-8001" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.znsd.UserProvider8001Application" />
@@ -396,7 +549,8 @@
       <workItem from="1588591600119" duration="11639000" />
       <workItem from="1588638132741" duration="4577000" />
       <workItem from="1588659917318" duration="11654000" />
-      <workItem from="1588681700539" duration="2580000" />
+      <workItem from="1588681700539" duration="2963000" />
+      <workItem from="1588687009945" duration="2461000" />
     </task>
     <servers />
   </component>
@@ -409,7 +563,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56366000" />
+    <option name="totallyTimeSpent" value="59210000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="7" />
@@ -420,7 +574,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.28686327" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.29088473" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="0" />
@@ -430,7 +584,7 @@
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" sideWeight="0.49865952" visible="true" weight="0.5684357" />
+      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49865952" visible="true" weight="0.3784916" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -455,56 +609,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bean/src/main/java/com/znsd/bean/GoodsBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="42" column="30" lean-forward="true" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bean/src/main/java/com/znsd/bean/CourseBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="8" selection-start-line="8" selection-end-line="16" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bean/src/main/java/com/znsd/bean/CourseAddressBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="6" selection-start-line="6" selection-end-line="14" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bean/src/main/java/com/znsd/bean/MenuBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="16" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bean/src/main/java/com/znsd/bean/ContractBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-275">
-          <caret line="6" selection-start-line="6" selection-end-line="14" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bean/src/main/java/com/znsd/bean/UserCommonBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -586,13 +690,6 @@
     <entry file="file://$PROJECT_DIR$/user-provider-8001/src/main/resources/application1.properties" />
     <entry file="file://$PROJECT_DIR$/user-provider-8001/src/main/java/com/znsd/controller/App.java" />
     <entry file="file://$PROJECT_DIR$/user-provider-8001/src/main/java/com/znsd/dao/LoginDao.java" />
-    <entry file="file://$PROJECT_DIR$/bean/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user-provider-8001/src/main/java/com/znsd/dao/LoginMapper.xml" />
     <entry file="file://$PROJECT_DIR$/user-provider-8001/src/main/resources/mapper/TestMapper.xml" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/2.1.1/mybatis-spring-boot-autoconfigure-2.1.1.jar!/org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class">
@@ -660,34 +757,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bean/src/main/resources/mapper/TestMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bean/src/main/java/com/znsd/test/TestMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/bean/src/main/resources/mapper/TestMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/bean/src/main/java/com/znsd/test/TestMapper.java" />
     <entry file="file://$PROJECT_DIR$/backstage-page/src/main/java/com/znsd/backstagepage/BackstagePageApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bean/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -702,13 +777,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="409">
           <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-provider-8001/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -747,16 +815,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-provider-8001/src/main/java/com/znsd/dao/LoginMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backstage-page/src/main/resources/static/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
@@ -767,12 +825,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-provider-8001/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/test-provider-80/test-provider-80.iml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/user-provider-8001/src/main/java/com/znsd/UserProvider8001Application.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -784,10 +838,80 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test-provider-80/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-provider-8001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-provider-80/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-provider-8001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="35" column="21" selection-start-line="31" selection-start-column="8" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/user-provider-8001/src/main/java/com/znsd/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9">
-          <caret line="30" column="45" lean-forward="true" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+        <state relative-caret-position="-7">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bean/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bean/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-provider-80/src/main/java/com/znsd/TestMain80.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-provider-80/src/main/java/com/znsd/user/controller/TestUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-provider-8001/src/main/java/com/znsd/dao/LoginMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

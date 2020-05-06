@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- namespace：命名空间，用于隔离sql，还有一个很重要的作用，后面会讲 -->
+<mapper namespace="com.znsd.dao.goods.GoodsMapper">
+    <!-- id:statement的id 或者叫做sql的id-->
+    <!-- parameterType:声明输入参数的类型 -->
+    <!-- resultType:声明输出结果的类型，应该填写pojo的全路径 -->
+    <!-- #{}：输入参数的占位符，相当于jdbc的？ -->
+	<!-- 查询全部商品-->
+	<select id="findAll" resultType="com.znsd.bean.GoodsBean">
+		select * from t_goods
+	</select>
+	<!-- 根据商品id来查询-->
+	<select id="findByGId" resultType="com.znsd.bean.GoodsBean">
+		select * from t_goods where g_Id=#{g_Id}
+	</select>
+
+	<!-- 上架商品  parameterType="com.znsd.bean.GoodsBean"-->
+	<insert id="save">
+		insert  into t_goods(g_Name,g_Detail,g_price,g_integral,g_conut,u_Id,p_Id)
+		values(#{g_Name},#{g_Detail},#{g_price},#{g_integral},#{g_conut},#{userBean.u_Id},#{goodsParam.p_Id})
+	</insert>
+
+	<!-- 根据商品id下架商品 -->
+	<delete id="DelByGId" parameterType="java.lang.Integer">
+		delete  from t_goods where g_Id=#{g_Id}
+	</delete>
+
+
+	<!-- 根据商品id修改 parameterType="com.znsd.bean.GoodsBean"-->
+	<update id="UpdateByGId" >
+		update t_goods set g_Name=#{g_Name},g_Detail=#{g_Detail},g_price=#{g_price},g_integral=#{g_integral},g_count=#{g_count}
+		where g_Id=#{gId}
+	</update>
+
+	<!-- 根据用户id来修改  parameterType="com.znsd.bean.GoodsBean"-->
+	<update id="UpdateByUId" >
+		update t_goods set g_Name=#{g_Name},g_Detail=#{g_Detail},g_price=#{g_price},g_integral=#{g_integral},g_count=#{g_count}
+		where userBean.u_Id=#{g_Id}
+	</update>
+
+
+</mapper>

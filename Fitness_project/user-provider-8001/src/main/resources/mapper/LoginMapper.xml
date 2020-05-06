@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.znsd.dao.LoginMapper">
+
+	<!--查询用户总数量-->
+	<select id="findUserCount" resultType="java.lang.Integer">
+		SELECT COUNT(*) FROM t_user
+	</select>
+
+	<!--查询所有-->
+    <select id="findAll" resultType="com.znsd.bean.UserBean">
+		SELECT * FROM t_user
+		LEFT JOIN t_user_role ON t_user.`r_Id` = t_user_role.`r_Id`
+	</select>
+	<!--根据用户名查询-->
+	<select id="findByName" resultType="com.znsd.bean.UserBean" parameterType="java.lang.String">
+		select * from t_user where u_name = #{name}
+	</select>
+
+	<!--管理员登录判断开始-->
+	<!--根据用户邮箱查询-->
+	<select id="findByEmail" resultType="com.znsd.bean.UserBean" parameterType="java.lang.String">
+		select * from t_user where u_email = #{email}
+	</select>
+	<!--根据用户手机号查询-->
+	<select id="findByPhone" resultType="com.znsd.bean.UserBean" parameterType="java.lang.String">
+		select * from t_user where u_phone = #{phone}
+	</select>
+	<!--根据用户名查询该用户的角色-->
+	<select id="findByRole" resultType="com.znsd.bean.UserBean" parameterType="java.lang.String">
+		SELECT * FROM t_user
+		LEFT JOIN t_user_role ON t_user.`r_Id` = t_user_role.`r_Id`
+		WHERE t_user_role.`r_name` = #{rName}  and t_user.u_Name=#{uName}
+	</select>
+	<!--管理员登录判断结束-->
+
+	<!--添加用户-->
+	<insert id="save" parameterType="com.znsd.bean.UserBean">
+		insert into t_user(u_Name,u_Password,u_Sex,u_email,u_phone,u_img,u_balance,u_integral,u_region,u_detali,u_createDate,u_lastLoginDate)
+		values(#{u_Name},#{u_Password},#{u_Sex},#{u_Email},#{u_Phone},#{u_Img},#{u_Balance},#{u_Integral},#{u_Region},#{u_Detali},#{u_CreateDate},#{u_LastLoginDate})
+	</insert>
+</mapper>

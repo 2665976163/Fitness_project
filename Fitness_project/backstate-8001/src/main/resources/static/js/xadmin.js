@@ -73,7 +73,13 @@
 	 * @param  {Boolean} full  [全屏]
 	 * @return {[type]}        [description]
 	 */
-	Xadmin.prototype.open = function (title,url,w,h,full) {
+	Xadmin.prototype.open = function (title,url,w,h,id,full) {
+        $.ajax({
+            url:'../user/findById',
+            data:{
+                id:id
+            }
+        })
 		if (title == null || title == '') {
 	        var title=false;
 	    };
@@ -94,7 +100,7 @@
 	        shadeClose: true,
 	        shade:0.4,
 	        title: title,
-	        content: url
+	        content: url+"?id="+id
 	    });
 	    if(full){
 	       layer.full(index); 

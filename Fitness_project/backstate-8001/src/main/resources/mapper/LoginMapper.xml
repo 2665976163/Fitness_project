@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.znsd.dao.LoginMapper">
+<mapper namespace="com.znsd.dao.user.LoginMapper">
 
 	<!--查询用户总数量-->
 	<select id="findUserCount" resultType="java.lang.Integer">
@@ -32,7 +32,7 @@
 	<select id="findByRole" resultType="com.znsd.bean.UserBean" parameterType="java.lang.String">
 		SELECT * FROM t_user
 		LEFT JOIN t_user_role ON t_user.`r_Id` = t_user_role.`r_Id`
-		WHERE t_user_role.`r_name` = #{rName}  and t_user.u_Name=#{uName}
+		WHERE t_user_role.`r_name` = '管理员'  and t_user.u_Name=#{username}
 	</select>
 	<!--管理员登录判断结束-->
 

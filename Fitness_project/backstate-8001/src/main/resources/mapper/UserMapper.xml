@@ -10,17 +10,103 @@
     <!-- resultType:声明输出结果的类型，应该填写pojo的全路径 -->
     <!-- #{}：输入参数的占位符，相当于jdbc的？ -->
 
+	<resultMap id="userMap" type="com.znsd.bean.UserBean">
+		<id column="u_Id" property="u_Id" />
+		<result column="u_Name" property="u_Name" />
+		<result column="u_Password" property="u_Password" />
+		<result column="u_Sex" property="u_Sex" />
+		<result column="u_Email" property="u_Email" />
+		<result column="u_Phone" property="u_Phone" />
+		<result column="u_Img" property="u_Img" />
+		<result column="u_Balance" property="u_Balance" />
+		<result column="u_Integral" property="u_Integral" />
+		<result column="u_Region" property="u_Region" />
+		<result column="u_Detali" property="u_Detali" />
+		<result column="u_CreateDate" property="u_CreateDate" />
+		<result column="u_LastLoginDate" property="u_LastLoginDate" />
+		<association property="roleBean" resultMap="roleMap" />
+	</resultMap>
+	<resultMap id="roleMap" type="com.znsd.bean.RoleBean">
+		<id column="r_Id" property="r_Id" />
+		<result column="r_name" property="r_Name" />
+		<result column="r_CreateDate" property="r_CreateDate" />
+		<result column="r_lastUpDate" property="r_lastUpDate" />
+	</resultMap>
+	<!--查询所有角色-->
+	<select id="findByAllRole" resultMap="roleMap">
+		select * from t_user_role
+	</select>
+
+	<!--查询所有等级-->
+	<select id="findByAllRank" resultType="com.znsd.bean.RankBean">
+		select * from t_user_rank
+	</select>
+
+
+	<select id="findByRoleId" resultType="com.znsd.bean.UserBean" parameterType="java.lang.Integer">
+		select * from t_user where r_Id = #{id}
+	</select>
+	<select id="findByRankId" resultType="com.znsd.bean.UserBean" parameterType="java.lang.Integer">
+		select * from t_user where rk_Id = #{id}
+	</select>
+	<select id="findByPhone" resultMap="userMap" parameterType="string">
+		SELECT * FROM t_user where u_Phone = #{phone}
+	</select>
+	<select id="findByName" resultMap="userMap" parameterType="string">
+		SELECT * FROM t_user where u_Name = #{username}
+	</select>
+	<select id="findByEmail" resultMap="userMap" parameterType="string">
+		SELECT * FROM t_user where u_Email = #{email}
+	</select>
+	<select id="findBySex" resultMap="userMap" parameterType="string">
+		SELECT * FROM t_user where u_Sex = #{sex}
+	</select>
+	<select id="findByRegion" resultMap="userMap" parameterType="string">
+		SELECT * FROM t_user where u_Region = #{region}
+	</select>
+	<select id="findByUId" resultMap="userMap" parameterType="java.lang.Integer">
+		select * from t_user where u_Id = #{uid}
+	</select>
+
     <!-- 通过id查询一个用户 -->
     <select id="findUserById" parameterType="integer" resultType="com.znsd.bean.UserBean">
-		select * from t_user where id=#{id};
+		select * from t_user where id=#{id}
 	</select>
-    <select id="findAll" resultType="com.znsd.bean.UserBean">
-		select * from t_user;
+	<!--查询所有用户及用户角色-->
+    <select id="findAll" resultMap="userMap">
+		SELECT u.*,role.`r_name` FROM t_user u
+		LEFT JOIN t_user_role role ON u.`r_Id` = role.`r_Id`
+		<!--<where>
+			<if test="u_Name != null and u_Name != '' and u_Name != 'null'">
+				and u_Name = #{u_Name}
+			</if>
+			<if test="u_Email != null and u_Name != '' and u_Name != 'null'">
+				and u_Email = #{u_Email}
+			</if>
+			<if test="u_Phone != null and u_Name != '' and u_Name != 'null'">
+				and u_Phone = #{u_Phone}
+			</if>
+			<if test="u_Region != null and u_Name != '' and u_Name != 'null'">
+				and u_Region = #{u_Region}
+			</if>
+			<if test="u_Sex != null and u_Name != '' and u_Name != 'null'">
+				and u_Sex = #{u_Sex}
+			</if>
+		</where>-->
 	</select>
 	<!--添加用户-->
 	<insert id="save" parameterType="com.znsd.bean.UserBean">
 		insert into t_user(u_Name,u_Password,u_Sex,u_email,u_phone,u_img,u_balance,u_integral,u_region,u_detali,u_createDate,u_lastLoginDate)
 		values(#{u_Name},#{u_Password},#{u_Sex},#{u_Email},#{u_Phone},#{u_Img},#{u_Balance},#{u_Integral},#{u_Region},#{u_Detali},#{u_CreateDate},#{u_LastLoginDate})
 	</insert>
+	<delete id="delete" parameterType="integer">
+		DELETE FROM t_user WHERE u_Id = #{uid}
+	</delete>
+	<update id="updateUser" parameterType="com.znsd.bean.UserBean">
+		UPDATE t_user SET u_Name=#{u_Name},u_Password=#{u_Password},u_Sex=#{u_Sex},u_Email=#{u_Email},u_phone=#{u_Phone},u_img=#{u_Img},u_balance=#{u_Balance},u_integral=#{u_Integral},u_region=#{u_Region},u_detali=#{u_Detali},u_LastLoginDate=#{u_LastLoginDate} WHERE u_Id=#{u_Id}
+	</update>
+	<update id="updateUserRole" parameterType="java.lang.Integer">
+		update t_user set r_Id = #{rid} where u_Id = #{uid}
+	</update>
 
 </mapper>

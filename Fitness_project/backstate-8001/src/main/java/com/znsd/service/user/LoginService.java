@@ -1,6 +1,9 @@
 package com.znsd.service.user;
 
-import org.springframework.stereotype.Service;
+
+import com.znsd.bean.UserBean;
 
 public interface LoginService {
+    public UserBean login(String loginField);
+    public boolean isAdmin(String username);
 }

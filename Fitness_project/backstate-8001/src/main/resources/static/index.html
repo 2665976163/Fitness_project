@@ -33,7 +33,7 @@
 
             <ul class="layui-nav right" lay-filter="">
                 <li class="layui-nav-item">
-                    <a href="javascript:;"><span th:text="${userCount}">222</span>admin</a>
+                    <a href="javascript:;" th:title="${username}"></a>
                     <dl class="layui-nav-child">
                         <!-- 二级菜单 -->
                         <dd>
@@ -59,40 +59,18 @@
                             <i class="iconfont nav_right">&#xe697;</i></a>
                         <ul class="sub-menu">
                             <li>
-                                <a onclick="xadmin.add_tab('统计页面','welcome1.html')">
+                                <a onclick="xadmin.add_tab('用户列表','user/findAll')">
                                     <i class="iconfont">&#xe6a7;</i>
-                                    <cite>统计页面</cite></a>
+                                    <cite>用户列表</cite></a>
                             </li>
                             <li>
-                                <a onclick="xadmin.add_tab('用户列表(静态表格)','member-list.html')">
+                                <a onclick="xadmin.add_tab('删除用户角色','member-del.html')">
                                     <i class="iconfont">&#xe6a7;</i>
-                                    <cite>用户列表(静态表格)</cite></a>
-                            </li>
-                            <li>
-                                <a onclick="xadmin.add_tab('用户列表(动态表格)','member-list1.html',true)">
-                                    <i class="iconfont">&#xe6a7;</i>
-                                    <cite>用户列表(动态表格)</cite></a>
-                            </li>
-                            <li>
-                                <a onclick="xadmin.add_tab('角色删除','member-del.html')">
-                                    <i class="iconfont">&#xe6a7;</i>
-                                    <cite>角色删除</cite></a>
+                                    <cite>删除用户角色</cite></a>
                             </li>
                         </ul>
                     </li>
-                    <!--<li>
-                        <a href="javascript:;">
-                            <i class="iconfont left-nav-li" lay-tips="分类管理">&#xe723;</i>
-                            <cite>分类管理</cite>
-                            <i class="iconfont nav_right">&#xe697;</i></a>
-                        <ul class="sub-menu">
-                            <li>
-                                <a onclick="xadmin.add_tab('多级分类','cate.html')">
-                                    <i class="iconfont">&#xe6a7;</i>
-                                    <cite>多级分类</cite></a>
-                            </li>
-                        </ul>
-                    </li>-->
+
                     <li>
                         <a href="javascript:;">
                             <i class="iconfont left-nav-li" lay-tips="商品管理">&#xe83b;</i>

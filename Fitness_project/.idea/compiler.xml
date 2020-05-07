@@ -7,7 +7,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="backstate-8001" />
-        <module name="bean" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

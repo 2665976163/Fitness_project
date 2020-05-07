@@ -19,5 +19,6 @@ spring:
 mybatis:
   mapper-locations: classpath:mapper/*.xml
   type-aliases-package: com.znsd.bean
+logging.level.com.znsd.dao: debug
 
 

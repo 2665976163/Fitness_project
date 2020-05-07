@@ -41,39 +41,32 @@
               form.on('submit(login)', function(data){
                   var name = document.getElementById("name").value;
                   var password = document.getElementById("password").value;
-                  alert(name);
                  $.ajax({
                      url:'user/login',
+                     type:'post',
                      data:{
                          name:name,
                          password:password
                      },
-                     complete:function(XMLHttpRequest,textStatus){
-                         alert(textStatus);
-                         alert(XMLHttpRequest);
-                         if(textStatus == "success"){
-                             location.href = 'http://localhost:8002/backstage/index.html';
+                     success:function(result,obj){
+                         if('success' == result.replace(/[\r\n]/g,"")){
+                             location.href = 'index.html';
                          }else{
-                             alert("登录失败");
+                             layer.alert(result, {
+                                     icon: 6
+                                 });
                          }
+                         return false;
 
                      }/*,
-                     success:function(result){
-                         alert("===="+result);
-                         location.href = 'http://localhost:8080/index.html';
-                     },
-                     error:function (result) {
-                         alert("----"+result);
-                         location.href = 'http://localhost:8080/index.html';
+                     error:function (XHttpStatus,obj) {
+
                      }*/
                  });
-                /*layer.msg(JSON.stringify(data.field),function(){
-                    location.href='/login'
-                });*/
                 return false;
               });
             });
-        })
+        });
     </script>
 </body>
 </html>

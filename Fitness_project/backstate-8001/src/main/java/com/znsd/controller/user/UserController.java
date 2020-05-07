@@ -33,7 +33,7 @@ public class UserController {
      */
     @RequestMapping("/login")
     @ResponseBody
-    public void AdminLogin(String name, String password, Map<String,Object> map, HttpServletResponse response){
+    public void adminLogin(String name, String password, Map<String,Object> map, HttpServletResponse response){
         System.out.println("========================login"+name+"======"+password);
         response.setCharacterEncoding("UTF-8");
         UserBean userBean = loginService.login(name);

@@ -92,7 +92,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public List<UserBean> findByIf(UserBean userBean) {
-        List<UserBean> userBeans = new ArrayList<>();
+        List<UserBean> userBeans = new ArrayList<UserBean>();
         //根据用户名查询
         if(userBean.getU_Name() != null && !("".equals(userBean.getU_Name())) && !("null".equals(userBean.getU_Name()))){
             UserBean byName = userMapper.findByName(userBean.getU_Name());

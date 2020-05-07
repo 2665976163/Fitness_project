@@ -6,7 +6,9 @@ import com.znsd.bean.UserBean;
 import com.znsd.service.goods.GoodsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.xml.ws.RequestWrapper;
@@ -14,7 +16,7 @@ import java.util.List;
 import java.util.Map;
 
 @Controller
-@RequestMapping("/goods")
+@RequestMapping("/good")
 public class GoodsController {
     @Autowired
     private GoodsService good;
@@ -23,8 +25,8 @@ public class GoodsController {
     public String findAll(Map<String,Object> map){
         System.out.println("成功进入查询全部商品");
         List<GoodsBean> list = good.findAll();
-        map.put("goodsAll","我来了..");
-         return "goods/goods-add";
+        map.put("goodsAll",list);
+         return "goods/goods-list";
     }
 
     @RequestMapping("/findByGId")
@@ -44,9 +46,14 @@ public class GoodsController {
         good.save(goodsBean);
     }
 
-    @RequestMapping("/DelByGId")
-    public void DelByGId(Integer g_Id){
+    @RequestMapping("/DelByGId/{id}")
+    public String DelByGId(@PathVariable("id") Integer g_Id, Map<String,Object> map){
+        System.out.println("根据商品id下架改商品"+g_Id);
         good.DelByGId(g_Id);
+        //重新查询 并且把结果传回前台
+        List<GoodsBean> list = good.findAll();
+        map.put("goodsAll",list);
+       return "goods/goods-list";
     }
 
     @RequestMapping("/UpdateByGId")

@@ -29,20 +29,8 @@ public class GoodsBean {
     private String g_integral;
     // 库存
     private String g_conut;
-    // 商家Id
+    // 商家Id  userBean.u_Id
     private UserBean userBean;
-    // 商品类型 CommonTypeMiddleBean -> CommonTypeBean sql级联
-    private List<CommonTypeMiddleBean> commonTypeMiddleBeanList;
-    // 商品封面 sql级联
-    private GoodsImgBean goodsImgBean;
-    // 商品内图 sql级联
-    private List<GoodsImgBean> goodsImgBeanList;
-    // 商品参数 sql级联
-    private List<GoodsParam> goodsParamList;
-    // 购买数量 sql求出
-    private String g_PayCount;
-    // 商品评分 sql求出
-    private String g_Score;
-    // 浏览记录(x个用户看过) sql 级联 BrowseBean -> UserBean
-    private List<UserBean> userBeanList;
+   //商品参数id  GoodsParam..pId
+    private GoodsParam goodsParam;
 }

@@ -42,11 +42,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/controller/user/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="119" column="39" selection-start-line="119" selection-start-column="39" selection-end-line="119" selection-end-column="39" />
+            <state relative-caret-position="317">
+              <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#findByAllRole#0;class#UserController#0" />
@@ -59,7 +59,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/controller/user/RoleController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
+            <state>
               <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -71,7 +71,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backstate-8001/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
+            <state relative-caret-position="1425">
               <caret line="75" selection-start-line="75" selection-end-line="75" />
             </state>
           </provider>
@@ -89,7 +89,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/resources/static/user/user-role.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
+            <state relative-caret-position="551">
               <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
             </state>
           </provider>
@@ -98,7 +98,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/resources/static/user/user-list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
+            <state relative-caret-position="2831">
               <caret line="149" column="44" selection-start-line="149" selection-start-column="44" selection-end-line="149" selection-end-column="44" />
             </state>
           </provider>
@@ -107,7 +107,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/resources/static/user/user-edit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
+            <state relative-caret-position="1767">
               <caret line="93" column="37" selection-start-line="93" selection-start-column="37" selection-end-line="93" selection-end-column="37" />
             </state>
           </provider>
@@ -116,26 +116,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/service/user/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="78" column="18" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
+            <state relative-caret-position="247">
+              <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1592#1593#0" expanded="true" />
                 <element signature="e#1639#1640#0" expanded="true" />
-                <element signature="e#1713#1714#0" expanded="true" />
-                <element signature="e#1738#1739#0" expanded="true" />
-                <element signature="e#4298#4299#0" expanded="true" />
-                <element signature="e#4346#4347#0" expanded="true" />
+                <element signature="e#2252#2262#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/resources/mapper/UserMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="108" column="55" lean-forward="true" selection-start-line="108" selection-start-column="55" selection-end-line="108" selection-end-column="55" />
+            <state relative-caret-position="665">
+              <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -143,8 +140,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/service/user/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+            <state relative-caret-position="228">
+              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -219,15 +216,15 @@
         <option value="$PROJECT_DIR$/backstate-8001/src/main/resources/static/user/user-edit.html" />
         <option value="$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/dao/user/RoleMapper.java" />
         <option value="$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/service/user/impl/RoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/backstate-8001/src/main/resources/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/dao/user/UserMapper.java" />
         <option value="$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/service/user/UserService.java" />
-        <option value="$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/service/user/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/backstate-8001/pom.xml" />
         <option value="$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/controller/user/RoleController.java" />
         <option value="$PROJECT_DIR$/backstate-8001/src/main/resources/static/user/user-role.html" />
         <option value="$PROJECT_DIR$/backstate-8001/src/main/resources/static/user/user-list.html" />
         <option value="$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/controller/user/UserController.java" />
-        <option value="$PROJECT_DIR$/backstate-8001/src/main/resources/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/service/user/impl/UserServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -257,7 +254,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="78" />
+    <option name="x" value="77" />
     <option name="y" value="-30" />
     <option name="width" value="1750" />
     <option name="height" value="995" />
@@ -268,6 +265,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -339,6 +338,40 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="znsd" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fitness_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fitness_project" type="462c0819:PsiDirectoryNode" />
+              <item name="backstate-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="znsd" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="goods" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fitness_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fitness_project" type="462c0819:PsiDirectoryNode" />
+              <item name="backstate-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="znsd" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="goods" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fitness_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fitness_project" type="462c0819:PsiDirectoryNode" />
+              <item name="backstate-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="znsd" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -349,16 +382,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="znsd" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fitness_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fitness_project" type="462c0819:PsiDirectoryNode" />
-              <item name="backstate-8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="znsd" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="user" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -383,8 +407,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -396,7 +418,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/backstate-8001/src/main/resources/mapper" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Fitness_project/Fitness_project" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -542,7 +564,8 @@
       <workItem from="1588659917318" duration="26599000" />
       <workItem from="1588724375592" duration="2520000" />
       <workItem from="1588736632164" duration="37934000" />
-      <workItem from="1588810702846" duration="19205000" />
+      <workItem from="1588810702846" duration="19124000" />
+      <workItem from="1588840764846" duration="271000" />
     </task>
     <servers />
   </component>
@@ -555,18 +578,17 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136508000" />
+    <option name="totallyTimeSpent" value="136698000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.50222224" side_tool="true" weight="0.21447721" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.4977778" visible="true" weight="0.22184986" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.4977778" visible="true" weight="0.22184986" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="0" />
@@ -576,13 +598,13 @@
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.24267782" />
-      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49798927" visible="true" weight="0.48535565" />
+      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49798927" weight="0.32635984" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
       <window_info anchor="bottom" id="Spring" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.41422594" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.41004184" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
       <window_info anchor="bottom" id="Problems" order="15" />
       <window_info anchor="right" id="Theme Preview" order="0" />
@@ -601,23 +623,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/Backstate8001Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-          <folding>
-            <element signature="e#322#323#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/bean/CommonScoreBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user-provider-8001/src/main/resources/mapper/UserMapper.xml" />
     <entry file="file://$PROJECT_DIR$/user-provider-8001/src/main/resources/mapper/LoginMapper.xml" />
     <entry file="file://$PROJECT_DIR$/user-provider-8001/src/main/resources/application.yml" />
@@ -807,30 +812,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/dao/user/RoleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/service/user/RoleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/service/user/impl/RoleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/dao/user/RoleMapper.java" />
+    <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/service/user/RoleService.java" />
+    <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/service/user/impl/RoleServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/dao/user/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -841,39 +825,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/service/user/UserService.java">
+    <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/resources/mapper/RoleMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/controller/user/RoleController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+        <state>
+          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/resources/mapper/RoleMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/service/user/impl/UserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/backstate-8001/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="78" column="18" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1592#1593#0" expanded="true" />
-            <element signature="e#1639#1640#0" expanded="true" />
-            <element signature="e#1713#1714#0" expanded="true" />
-            <element signature="e#1738#1739#0" expanded="true" />
-            <element signature="e#4298#4299#0" expanded="true" />
-            <element signature="e#4346#4347#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/resources/static/user/user-edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="93" column="37" selection-start-line="93" selection-start-column="37" selection-end-line="93" selection-end-column="37" />
+        <state relative-caret-position="1425">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
         </state>
       </provider>
     </entry>
@@ -884,53 +850,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backstate-8001/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/controller/user/RoleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/resources/static/user/user-role.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
+        <state relative-caret-position="551">
           <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/resources/static/user/user-list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
+        <state relative-caret-position="2831">
           <caret line="149" column="44" selection-start-line="149" selection-start-column="44" selection-end-line="149" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/controller/user/UserController.java">
+    <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/resources/static/user/user-edit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="119" column="39" selection-start-line="119" selection-start-column="39" selection-end-line="119" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#findByAllRole#0;class#UserController#0" />
-            <element signature="method#findByIf#0;class#UserController#0" />
-          </folding>
+        <state relative-caret-position="1767">
+          <caret line="93" column="37" selection-start-line="93" selection-start-column="37" selection-end-line="93" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/resources/mapper/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="108" column="55" lean-forward="true" selection-start-line="108" selection-start-column="55" selection-end-line="108" selection-end-column="55" />
+        <state relative-caret-position="665">
+          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/service/user/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/service/goods/impl/GoodserviceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.2.6.RELEASE/spring-boot-autoconfigure-2.2.6.RELEASE.jar!/org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="259" column="44" selection-start-line="259" selection-start-column="44" selection-end-line="259" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/service/user/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1592#1593#0" expanded="true" />
+            <element signature="e#1639#1640#0" expanded="true" />
+            <element signature="e#2252#2262#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/controller/user/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#findByAllRole#0;class#UserController#0" />
+            <element signature="method#findByIf#0;class#UserController#0" />
+          </folding>
         </state>
       </provider>
     </entry>

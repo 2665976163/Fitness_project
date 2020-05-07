@@ -2,6 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7af57e0e-b06a-4e5a-b04f-07e3ca329d8e" name="Default Changelist" comment="" />
+
+    <list default="true" id="7af57e0e-b06a-4e5a-b04f-07e3ca329d8e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/dao/goods/TomcatConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstate-8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backstate-8001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/controller/goods/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/controller/goods/GoodsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstate-8001/src/main/resources/static/goods/goods-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/backstate-8001/src/main/resources/static/goods/goods-add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstate-8001/src/main/resources/static/goods/goods-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/backstate-8001/src/main/resources/static/goods/goods-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstate-8001/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/backstate-8001/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstate-8001/src/main/resources/static/order-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/backstate-8001/src/main/resources/static/order-list.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/bean/target/" />
@@ -64,6 +75,10 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            <state relative-caret-position="230">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+            <state relative-caret-position="228">
+              <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -77,6 +92,11 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/elasticsearchModel/ElasticsearchConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="366">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/bean/RoleBean.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -145,6 +165,16 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+        <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/Backstate8001Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+              <folding>
+                <element signature="e#247#248#0" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
+              </folding>
+            <state relative-caret-position="265">
+              <caret line="102" column="71" selection-start-line="102" selection-start-column="67" selection-end-line="102" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -225,6 +255,28 @@
         <option value="$PROJECT_DIR$/backstate-8001/src/main/resources/static/user/user-list.html" />
         <option value="$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/controller/user/UserController.java" />
         <option value="$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/service/user/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/backstate-8001/pom.xml" />
+        <option value="$PROJECT_DIR$/backstate-8001/src/main/resources/static/login.html" />
+        <option value="$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/controller/user/UserController.java" />
+        <option value="$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/controller/user/GoodsController.java" />
+        <option value="$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/bean/GoodsBean.java" />
+        <option value="$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/service/goods/impl/GoodsImpl.java" />
+        <option value="$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/dao/goods/GoodsMapper.java" />
+        <option value="$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/service/goods/impl/GoodserviceImpl.java" />
+        <option value="$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/service/goods/GoodsService.java" />
+        <option value="$PROJECT_DIR$/backstate-8001/src/main/resources/mapper/GoodsMapper.xml" />
+        <option value="$PROJECT_DIR$/backstate-8001/src/main/resources/static/goods/order-list.html" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/backstate-8001/src/main/resources/templates/goods/goods-list.html" />
+        <option value="$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/dao/goods/TomcatConfig.java" />
+        <option value="$PROJECT_DIR$/backstate-8001/src/main/resources/static/order-list.html" />
+        <option value="$PROJECT_DIR$/backstate-8001/src/main/resources/static/index.html" />
+        <option value="$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/controller/goods/GoodsController.java" />
+        <option value="$PROJECT_DIR$/backstate-8001/src/main/resources/static/good/goods-add.html" />
+        <option value="$PROJECT_DIR$/backstate-8001/src/main/resources/static/goods/goods-list.html" />
+        <option value="$PROJECT_DIR$/backstate-8001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/elasticsearchModel/ElasticsearchConfig.java" />
+        <option value="$PROJECT_DIR$/backstate-8001/src/main/resources/static/goods/goods-add.html" />
       </list>
     </option>
   </component>
@@ -258,6 +310,14 @@
     <option name="y" value="-30" />
     <option name="width" value="1750" />
     <option name="height" value="995" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-5" />
+    <option name="y" value="6" />
+    <option name="width" value="1620" />
+    <option name="height" value="828" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -266,6 +326,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+    <panes>
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -407,6 +468,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -454,6 +517,15 @@
       <recent name="D:\myself\study\项目\健身平台\Fitness_project\Fitness_project\backstate-8001\src\main\resources\static" />
       <recent name="D:\myself\study\项目\健身平台\Fitness_project\Fitness_project\backstate-8001\src\main\resources\templates\lib" />
       <recent name="D:\myself\study\项目\健身平台\Fitness_project\Fitness_project\backstate-8001\src\main\resources\templates" />
+
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\demo\Fitness_project\Fitness_project\Fitness_project\backstate-8001\src\main\resources\static\good" />
+      <recent name="E:\demo\Fitness_project\Fitness_project\Fitness_project\backstate-8001\src\main\resources\static\goods" />
+      <recent name="E:\demo\Fitness_project\Fitness_project\Fitness_project\backstate-8001\src\main\resources\templates" />
+      <recent name="E:\demo\Fitness_project\Fitness_project\Fitness_project\backstate-8001\src\main\resources" />
+      <recent name="E:\demo\Fitness_project\Fitness_project\Fitness_project\backstate-8001\src\main\resources\mapper" />
+      <recent name="D:\myself\study\项目\健身平台\Fitness_project\Fitness_project\backstate-8001\src\main\resources\static" />
+
     </key>
   </component>
   <component name="RunDashboard">
@@ -578,10 +650,16 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
+
     <option name="totallyTimeSpent" value="136698000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <option name="totallyTimeSpent" value="112562000" />
+    <option name="totallyTimeSpent" value="128471000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-5" y="6" width="1620" height="828" extended-state="0" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -589,6 +667,8 @@
       <window_info id="Favorites" order="3" sideWeight="0.50222224" side_tool="true" weight="0.21447721" />
       <window_info id="Image Layers" order="4" />
       <window_info content_ui="combo" id="Project" order="5" sideWeight="0.4977778" visible="true" weight="0.22184986" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25258398" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.30802292" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="0" />
@@ -598,7 +678,13 @@
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.24267782" />
+
       <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49798927" weight="0.32635984" />
+
+      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49713466" visible="true" weight="0.09063893" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.49191374" />
+      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49713466" weight="0.31536388" />
+
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -623,6 +709,7 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+
     <entry file="file://$PROJECT_DIR$/user-provider-8001/src/main/resources/mapper/UserMapper.xml" />
     <entry file="file://$PROJECT_DIR$/user-provider-8001/src/main/resources/mapper/LoginMapper.xml" />
     <entry file="file://$PROJECT_DIR$/user-provider-8001/src/main/resources/application.yml" />
@@ -635,6 +722,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+
+    <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/resources/static/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/bean/AttentionBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/Backstate8001Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -872,6 +985,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/resources/mapper/UserMapper.xml">
+
+    <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/resources/goods/goods-add.html" />
+    <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/resources/static/index.html">
+    <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/resources/static/order-list1.html">
+
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="665">
           <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
@@ -889,6 +1007,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/service/goods/impl/GoodserviceImpl.java">
+
+    <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/resources/templates/goods/goods-add.html" />
+    <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/resources/templates/goods/goods-list.html" />
+    <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/resources/templates/goods-add.html" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/resources/static/order-list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
@@ -923,6 +1047,60 @@
             <element signature="imports" expanded="true" />
             <element signature="method#findByAllRole#0;class#UserController#0" />
             <element signature="method#findByIf#0;class#UserController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/resources/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        <state relative-caret-position="265">
+          <caret line="102" column="71" selection-start-line="102" selection-start-column="67" selection-end-line="102" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/resources/static/js/xadmin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="75" column="4" selection-start-line="75" selection-start-column="4" selection-end-line="75" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/resources/static/good/goods-add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/resources/static/goods/goods-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="72" column="40" lean-forward="true" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/resources/static/goods/goods-add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="31" column="60" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstate-8001/src/main/java/com/znsd/elasticsearchModel/ElasticsearchConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
